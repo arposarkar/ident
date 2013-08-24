@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Register step 4</title>
+<link rel="stylesheet" href="css/form.css" type="text/css" />
+</head>
+
+<body>
+	<header>
+		<div class="container">
+			<a href="#" class="back_btn"></a>
+			<h1>Payment</h1>
+		</div>
+	</header>
+	
+	<div id="main">
+	<h2>Payment Info</h2>
+		<div class="container">
+			<form>
+				<input name="cname" class="txtbox" type="text" placeholder="cardholder’s name" required>
+				<input name="payment_method" class="txtbox" type="text" placeholder="payment method" required>
+				<input name="card_no" class="txtbox60" type="text" placeholder="card number" required>
+				<input name="cvv" class="txtbox15" type="text" placeholder="cvv" required>
+				<select class="select64" name="select title" placeholder="expiry month" required="">
+					<option selected="selected">expiry month</option>
+					<option>January</option>
+					<option>February</option>
+				</select>
+				<select class="select14" name="select title" placeholder="year" required="">
+					<option selected="selected">year</option>
+					<option>2012</option>
+					<option>2011</option>
+				</select>
+			</form>
+			<h2>Billing Address</h2>
+			<form>
+				<input name="addr1" class="txtbox" type="text" placeholder="address line 1" required>
+				<input name="addr2" class="txtbox" type="text" placeholder="address line 2" >
+				<input name="city" class="txtbox" type="text" placeholder="city" required>
+				<input name="postcode" class="txtbox" type="text" placeholder="postcode" required>
+				<a href="#" class="register_btn">Confirm &amp; Pay</a>
+			</form>
+		</div>
+	</div>
+</body>
+</html>
